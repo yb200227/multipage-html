@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; 
+    color: #333;
+}
+
+/*Centered content*/
+.centered {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Header and Navigation*/
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/*Headings*/
+h1 {
+    color: #1B1212;
+    margin-bottom: 20px;
+}
+
+/*Links*/
+a {
+    text-decoration: none;
+    color: #1B1212;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+/*Images*/
+img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/*Lists*/
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    display: inline-block;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+ul li::marker {
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+/*Forms*/
+form {
+    margin: 20px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/*Buttons*/
+.interactive-button {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 1em;
+}
+
+.interactive-button:hover {
+    background-color: #333;
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.9em;
+}
